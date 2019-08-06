@@ -1,0 +1,15 @@
+Additional Board URLs:
+
+For ESP32
+http://dl.espressif.com/dl/package_esp32_index.json
+
+FOR ESP8266
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+Channel:
+
+Name: ESP32 Hall and Tempreture sensor value
+
+Field 1: Hall Value
+
+Field 2: Tempreture

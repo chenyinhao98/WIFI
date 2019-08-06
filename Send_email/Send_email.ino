@@ -93,10 +93,10 @@ void setup()
   Serial.println("Sending email...");
 
   //Set the Email host, port, account and password
-  smtpData.setLogin("smtp.gmail.com", 465, "chenyinhao98@gmail.com", "981116cyh");
+  smtpData.setLogin("smtp.gmail.com", 465, "*****@gmail.com", "******");
 
   //Set the sender name and Email
-  smtpData.setSender("ESP32", "chenyinhao98@gmail.com");
+  smtpData.setSender("ESP32", "*****@gmail.com");
 
   //Set Email priority or importance High, Normal, Low or 1 to 5 (1 is highest)
   smtpData.setPriority("High");
@@ -108,7 +108,7 @@ void setup()
   smtpData.setMessage("<div style=\"color:#ff0000;font-size:20px;\">Hello World! - From ESP32</div>", true);
 
   //Add recipients, can add more than one recipient
-  smtpData.addRecipient("chenyinhao1998@163.com");
+  smtpData.addRecipient("******@163.com");
 
 
 
